@@ -1,0 +1,268 @@
+
+strict digraph G {
+    layout="neato";
+    mode="ipsep";
+    compound=true;
+    overlap=false;
+    splines=ortho;
+    packmode="node";
+    sep="+1.5";
+
+    {
+        label="./ops/tf";
+
+        base [label="ops/tf/base", color="/brbg4/1"];
+        build [label="ops/tf/build", color="/set28/6"];
+        fsn1_prod [label="ops/tf/fsn1-prod", color="/brbg4/4"];
+        fsn1_prod__nodes [label="ops/tf/fsn1-prod/nodes", color="/set18/7"];
+        fsn1_prod__observability [label="ops/tf/fsn1-prod/observability", color="/set18/7"];
+        miner_proxy_ap [label="ops/tf/miner-proxy-ap", color="/set28/6"];
+        miner_proxy_eu [label="ops/tf/miner-proxy-eu", color="/set18/4"];
+        oracle_prod_app [label="ops/tf/oracle-prod-app", color="/set28/6"];
+        oracle_prod_nodes [label="ops/tf/oracle-prod-nodes", color="/set18/8"];
+        oracle_prod_setup [label="ops/tf/oracle-prod-setup", color="/set18/3"];
+        overwatch_app [label="ops/tf/overwatch-app", color="/set18/7"];
+        overwatch_nodes [label="ops/tf/overwatch-nodes", color="/set28/3"];
+        overwatch_setup [label="ops/tf/overwatch-setup", color="/set18/2"];
+        prod_setup [label="ops/tf/prod-setup", color="/set28/8"];
+        relay_prod_app [label="ops/tf/relay-prod-app", color="/brbg4/4"];
+        relay_prod_nodes [label="ops/tf/relay-prod-nodes", color="/brbg4/1"];
+        relay_prod_setup [label="ops/tf/relay-prod-setup", color="/set18/1"];
+        relay_stag_app [label="ops/tf/relay-stag-app", color="/set18/8"];
+        relay_stag_nodes [label="ops/tf/relay-stag-nodes", color="/set18/4"];
+        relay_stag_setup [label="ops/tf/relay-stag-setup", color="/brbg4/1"];
+        sentry [label="ops/tf/sentry", color="/set18/1"];
+    }
+
+    {
+        app_bundler_py [label="ops/tf-modules/app-bundler-py"];
+        app_kafka_config [label="ops/tf-modules/app-kafka-config"];
+        app_postgres_config [label="ops/tf-modules/app-postgres-config"];
+        aws_miner_proxy [label="ops/tf-modules/aws-miner-proxy"];
+        aws_s3_backup [label="ops/tf-modules/aws-s3-backup"];
+        grafana_dashboard_cert_manager [label="ops/tf-modules/grafana-dashboard-cert-manager"];
+        grafana_dashboard_jvm_overview [label="ops/tf-modules/grafana-dashboard-jvm-overview"];
+        grafana_dashboard_kafka_streams [label="ops/tf-modules/grafana-dashboard-kafka-streams"];
+        grafana_dashboard_nethermind [label="ops/tf-modules/grafana-dashboard-nethermind"];
+        grafana_dashboard_node_exporter [label="ops/tf-modules/grafana-dashboard-node-exporter"];
+        grafana_dashboard_postgres [label="ops/tf-modules/grafana-dashboard-postgres"];
+        grafana_dashboard_redpanda [label="ops/tf-modules/grafana-dashboard-redpanda"];
+        grafana_dashboard_relay_overview [label="ops/tf-modules/grafana-dashboard-relay-overview"];
+        grafana_dashboard_victoriametrics [label="ops/tf-modules/grafana-dashboard-victoriametrics"];
+        htpasswd [label="ops/tf-modules/htpasswd"];
+        k3s_setup [label="ops/tf-modules/k3s-setup"];
+        k8s_coredns_monitors [label="ops/tf-modules/k8s-coredns-monitors"];
+        k8s_dshackle [label="ops/tf-modules/k8s-dshackle"];
+        k8s_ecr_kube_helper [label="ops/tf-modules/k8s-ecr-kube-helper"];
+        k8s_erigon [label="ops/tf-modules/k8s-erigon"];
+        k8s_external_dns [label="ops/tf-modules/k8s-external-dns"];
+        k8s_geth [label="ops/tf-modules/k8s-geth"];
+        k8s_grafana_agent [label="ops/tf-modules/k8s-grafana-agent"];
+        k8s_grafana_agent_logs_instance [label="ops/tf-modules/k8s-grafana-agent-logs-instance"];
+        k8s_grafana_agent_metrics_instance [label="ops/tf-modules/k8s-grafana-agent-metrics-instance"];
+        k8s_http_deploy [label="ops/tf-modules/k8s-http-deploy"];
+        k8s_kube_prometheus_rules [label="ops/tf-modules/k8s-kube-prometheus-rules"];
+        k8s_kube_state_metrics [label="ops/tf-modules/k8s-kube-state-metrics"];
+        k8s_kubelet_cadvisor_monitors [label="ops/tf-modules/k8s-kubelet-cadvisor-monitors"];
+        k8s_kubelet_serving_cert_approver [label="ops/tf-modules/k8s-kubelet-serving-cert-approver"];
+        k8s_metrics_server [label="ops/tf-modules/k8s-metrics-server"];
+        k8s_nethermind [label="ops/tf-modules/k8s-nethermind"];
+        k8s_node_exporter [label="ops/tf-modules/k8s-node-exporter"];
+        k8s_overwatch_client [label="ops/tf-modules/k8s-overwatch-client"];
+        k8s_quarkus_deploy [label="ops/tf-modules/k8s-quarkus-deploy"];
+        k8s_relay [label="ops/tf-modules/k8s-relay"];
+        k8s_schema_registry [label="ops/tf-modules/k8s-schema-registry"];
+        k8s_vmalert_instance [label="ops/tf-modules/k8s-vmalert-instance"];
+        ovh_k3s_master [label="ops/tf-modules/ovh-k3s-master"];
+        ovh_k3s_worker [label="ops/tf-modules/ovh-k3s-worker"];
+        users [label="ops/users"];
+    }
+
+    {
+        edge [color="/set28/6"];
+
+        terraform_nix_build_git_v0_0_0 -> build;
+    }
+
+    {
+        edge [color="/set28/6"];
+
+        aws_miner_proxy -> miner_proxy_ap;
+        users -> miner_proxy_ap;
+    }
+
+    {
+        edge [color="/set18/4"];
+
+        aws_miner_proxy -> miner_proxy_eu;
+        users -> miner_proxy_eu;
+    }
+
+    {
+        edge [color="/set28/6"];
+
+        deploy -> oracle_prod_app;
+        htpasswd -> oracle_prod_app;
+        k8s_dshackle -> oracle_prod_app;
+        k8s_erigon -> oracle_prod_app;
+        k8s_geth -> oracle_prod_app;
+        k8s_nethermind -> oracle_prod_app;
+    }
+
+    {
+        edge [color="/set18/8"];
+
+        aws_s3_backup -> oracle_prod_nodes;
+        ovh_k3s_master -> oracle_prod_nodes;
+        ovh_k3s_worker -> oracle_prod_nodes;
+        users -> oracle_prod_nodes;
+    }
+
+    {
+        edge [color="/set18/3"];
+
+        grafana_dashboard_cert_manager -> oracle_prod_setup;
+        grafana_dashboard_nethermind -> oracle_prod_setup;
+        k3s_setup -> oracle_prod_setup;
+        k8s_ecr_kube_helper -> oracle_prod_setup;
+        k8s_grafana_agent -> oracle_prod_setup;
+        k8s_overwatch_client -> oracle_prod_setup;
+    }
+
+    {
+        edge [color="/set18/7"];
+
+        grafana_dashboard_victoriametrics -> overwatch_app;
+        terraform_nix_build_git_v0_0_0 -> overwatch_app;
+    }
+
+    {
+        edge [color="/set28/3"];
+
+        aws_s3_backup -> overwatch_nodes;
+        ovh_k3s_master -> overwatch_nodes;
+        ovh_k3s_worker -> overwatch_nodes;
+        users -> overwatch_nodes;
+    }
+
+    {
+        edge [color="/set18/2"];
+
+        k3s_setup -> overwatch_setup;
+        k8s_grafana_agent -> overwatch_setup;
+        k8s_overwatch_client -> overwatch_setup;
+    }
+
+    {
+        edge [color="/brbg4/4"];
+
+        k8s_relay -> relay_prod_app;
+    }
+
+    {
+        edge [color="/brbg4/1"];
+
+        aws_s3_backup -> relay_prod_nodes;
+        ovh_k3s_master -> relay_prod_nodes;
+        ovh_k3s_worker -> relay_prod_nodes;
+        users -> relay_prod_nodes;
+    }
+
+    {
+        edge [color="/set18/1"];
+
+        grafana_dashboard_cert_manager -> relay_prod_setup;
+        grafana_dashboard_jvm_overview -> relay_prod_setup;
+        grafana_dashboard_kafka_streams -> relay_prod_setup;
+        grafana_dashboard_node_exporter -> relay_prod_setup;
+        grafana_dashboard_postgres -> relay_prod_setup;
+        grafana_dashboard_redpanda -> relay_prod_setup;
+        grafana_dashboard_relay_overview -> relay_prod_setup;
+        k3s_setup -> relay_prod_setup;
+        k8s_ecr_kube_helper -> relay_prod_setup;
+        k8s_grafana_agent -> relay_prod_setup;
+        k8s_overwatch_client -> relay_prod_setup;
+    }
+
+    {
+        edge [color="/set18/8"];
+
+        k8s_relay -> relay_stag_app;
+    }
+
+    {
+        edge [color="/set18/4"];
+
+        aws_s3_backup -> relay_stag_nodes;
+        ovh_k3s_master -> relay_stag_nodes;
+        ovh_k3s_worker -> relay_stag_nodes;
+        users -> relay_stag_nodes;
+    }
+
+    {
+        edge [color="/brbg4/1"];
+
+        grafana_dashboard_cert_manager -> relay_stag_setup;
+        grafana_dashboard_jvm_overview -> relay_stag_setup;
+        grafana_dashboard_kafka_streams -> relay_stag_setup;
+        grafana_dashboard_node_exporter -> relay_stag_setup;
+        grafana_dashboard_postgres -> relay_stag_setup;
+        grafana_dashboard_redpanda -> relay_stag_setup;
+        grafana_dashboard_relay_overview -> relay_stag_setup;
+        k3s_setup -> relay_stag_setup;
+        k8s_ecr_kube_helper -> relay_stag_setup;
+        k8s_grafana_agent -> relay_stag_setup;
+        k8s_overwatch_client -> relay_stag_setup;
+    }
+
+    {
+        edge [color="/set18/7"];
+
+        baremetal_node_2b783c381a567164fb292e116dc0d8b37718c332 -> fsn1_prod__nodes;
+        hcloud_lb_2b783c381a567164fb292e116dc0d8b37718c332 -> fsn1_prod__nodes;
+        hcloud_node_2b783c381a567164fb292e116dc0d8b37718c332 -> fsn1_prod__nodes;
+    }
+
+    {
+        edge [color="/set18/7"];
+
+        k8s_coredns_monitors -> fsn1_prod__observability;
+        k8s_grafana_agent -> fsn1_prod__observability;
+        k8s_kube_prometheus_rules -> fsn1_prod__observability;
+        k8s_kube_state_metrics -> fsn1_prod__observability;
+        k8s_kubelet_cadvisor_monitors -> fsn1_prod__observability;
+        k8s_kubelet_serving_cert_approver -> fsn1_prod__observability;
+        k8s_metrics_server -> fsn1_prod__observability;
+        k8s_node_exporter -> fsn1_prod__observability;
+        k8s_overwatch_client -> fsn1_prod__observability;
+    }
+
+    {
+        k8s_coredns_monitors -> k3s_setup;
+        k8s_external_dns -> k3s_setup;
+        k8s_kube_prometheus_rules -> k3s_setup;
+        k8s_kube_state_metrics -> k3s_setup;
+        k8s_kubelet_cadvisor_monitors -> k3s_setup;
+        k8s_node_exporter -> k3s_setup;
+    }
+
+    {
+        grafana_agent_tempo -> k8s_overwatch_client;
+        k8s_grafana_agent_logs_instance -> k8s_overwatch_client;
+        k8s_grafana_agent_metrics_instance -> k8s_overwatch_client;
+        k8s_vmalert_instance -> k8s_overwatch_client;
+    }
+
+    {
+        app_bundler_py -> k8s_relay;
+        app_kafka_config -> k8s_relay;
+        app_postgres_config -> k8s_relay;
+        k8s_http_deploy -> k8s_relay;
+        k8s_quarkus_deploy -> k8s_relay;
+        k8s_schema_registry -> k8s_relay;
+    }
+
+    {
+        terraform_nix_build_git_v0_0_0 -> k8s_kube_prometheus_rules;
+    }
+}
