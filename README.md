@@ -1,5 +1,11 @@
-# `datacenter exchange index`
+# `datacenter map`
 
+## Deployment Map Example
+
+>**Note**    
+> This is an outdated deployment, its published here for illustrative purposes only
+
+![](./deployment/deployment_render.svg)
 
 ## Interchange Access List 
 
