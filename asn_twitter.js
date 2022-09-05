@@ -1,0 +1,905 @@
+// ISP_TWITTER
+module.exports = [{
+    "asn": "1",
+    "handle": "CenturyLink"
+}, {
+    "asn": "2",
+    "handle": "UDelaware"
+}, {
+    "asn": "3",
+    "handle": "mit"
+}, {
+    "asn": "4",
+    "handle": "usc"
+}, {
+    "asn": "6",
+    "handle": "atos"
+}, {
+    "asn": "9",
+    "handle": "carnegiemellon"
+}, {
+    "asn": "14",
+    "handle": "columbia"
+}, {
+    "asn": "17",
+    "handle": "lifeatpurdue"
+}, {
+    "asn": "18",
+    "handle": "utaustin"
+}, {
+    "asn": "19",
+    "handle": "leidosinc"
+}, {
+    "asn": "20",
+    "handle": "UofR"
+}, {
+    "asn": "174",
+    "handle": "CogentCo"
+}, {
+    "asn": "513",
+    "handle": "CERN"
+}, {
+    "asn": "559",
+    "handle": "SWITCH_ch"
+}, {
+    "asn": "577",
+    "handle": "Bell"
+}, {
+    "asn": "701",
+    "handle": "VERIZON"
+}, {
+    "asn": "786",
+    "handle": "Jisc"
+}, {
+    "asn": "812",
+    "handle": "Rogers"
+}, {
+    "asn": "852",
+    "handle": "TELUS"
+}, {
+    "asn": "1136",
+    "handle": "KPN"
+}, {
+    "asn": "1221",
+    "handle": "Telstra"
+}, {
+    "asn": "1267",
+    "handle": "WIND_Telecomunicazioni"
+}, {
+    "asn": "1399",
+    "handle": "megacable"
+}, {
+    "asn": "1741",
+    "handle": "CSCfi"
+}, {
+    "asn": "1757",
+    "handle": "StormFiber"
+}, {
+    "asn": "1759",
+    "handle": "TeliaFinland"
+}, {
+    "asn": "1764",
+    "handle": "next_layer"
+}, {
+    "asn": "1853",
+    "handle": "ziduniwien"
+}, {
+    "asn": "2018",
+    "handle": "Telenet"
+}, {
+    "asn": "2047",
+    "handle": "roche"
+}, {
+    "asn": "2611",
+    "handle": "belnet_be"
+}, {
+    "asn": "2612",
+    "handle": "Sitasys"
+}, {
+    "asn": "2764",
+    "handle": "AAPTAustralia"
+}, {
+    "asn": "2852",
+    "handle": "CESNET_cz"
+}, {
+    "asn": "2856",
+    "handle": "bt_uk"
+}, {
+    "asn": "3209",
+    "handle": "vodafone_de"
+}, {
+    "asn": "3215",
+    "handle": "Orange_France"
+}, {
+    "asn": "3238",
+    "handle": "Alcom_ax"
+}, {
+    "asn": "3243",
+    "handle": "MEOpt"
+}, {
+    "asn": "3265",
+    "handle": "xs4all"
+}, {
+    "asn": "3269",
+    "handle": "tim_official"
+}, {
+    "asn": "3303",
+    "handle": "Swisscom"
+}, {
+    "asn": "3304",
+    "handle": "Scarlet"
+}, {
+    "asn": "3320",
+    "handle": "deutschetelekom"
+}, {
+    "asn": "3352",
+    "handle": "Telefonica"
+}, {
+    "asn": "3399",
+    "handle": "Obenetwork"
+}, {
+    "asn": "3737",
+    "handle": "PenTeleData"
+}, {
+    "asn": "4637",
+    "handle": "Telstra"
+}, {
+    "asn": "4739",
+    "handle": "iiNet"
+}, {
+    "asn": "4764",
+    "handle": "Aussie_BB"
+}, {
+    "asn": "4804",
+    "handle": "Optus"
+}, {
+    "asn": "4922",
+    "handle": "Shentel"
+}, {
+    "asn": "5089",
+    "handle": "virginmedia"
+}, {
+    "asn": "5198",
+    "handle": "jazzpk"
+}, {
+    "asn": "5378",
+    "handle": "VodafoneUK"
+}, {
+    "asn": "5410",
+    "handle": "bouyguestelecom"
+}, {
+    "asn": "5432",
+    "handle": "proximus"
+}, {
+    "asn": "5466",
+    "handle": "eir"
+}, {
+    "asn": "5483",
+    "handle": "telekomHU"
+}, {
+    "asn": "5488",
+    "handle": "proximus"
+}, {
+    "asn": "5607",
+    "handle": "SkyUK"
+}, {
+    "asn": "5610",
+    "handle": "O2_CZ"
+}, {
+    "asn": "5645",
+    "handle": "TekSavvyNetwork"
+}, {
+    "asn": "5769",
+    "handle": "videotron"
+}, {
+    "asn": "6128",
+    "handle": "Optimum"
+}, {
+    "asn": "6181",
+    "handle": "CincyBell"
+}, {
+    "asn": "6327",
+    "handle": "ShawInfo"
+}, {
+    "asn": "6667",
+    "handle": "ElisaOyj"
+}, {
+    "asn": "6677",
+    "handle": "siminn"
+}, {
+    "asn": "6697",
+    "handle": "BeltelecomBy"
+}, {
+    "asn": "6730",
+    "handle": "sunrise_de"
+}, {
+    "asn": "6799",
+    "handle": "otenet_gr"
+}, {
+    "asn": "6830",
+    "handle": "libertyglobal"
+}, {
+    "asn": "6848",
+    "handle": "Telenet"
+}, {
+    "asn": "6866",
+    "handle": "cytacyprus"
+}, {
+    "asn": "7029",
+    "handle": "Windstream"
+}, {
+    "asn": "7203",
+    "handle": "Leaseweb"
+}, {
+    "asn": "7474",
+    "handle": "Optus"
+}, {
+    "asn": "7545",
+    "handle": "TPG_Telecom"
+}, {
+    "asn": "7642",
+    "handle": "Dhiraagu"
+}, {
+    "asn": "7922",
+    "handle": "Comcast"
+}, {
+    "asn": "7992",
+    "handle": "cogeco"
+}, {
+    "asn": "8100",
+    "handle": "QuadraNet"
+}, {
+    "asn": "8151",
+    "handle": "Telmex"
+}, {
+    "asn": "8167",
+    "handle": "oi_oficial"
+}, {
+    "asn": "8220",
+    "handle": "Colt_Technology"
+}, {
+    "asn": "8236",
+    "handle": "DNA_fi"
+}, {
+    "asn": "8282",
+    "handle": "coloclue"
+}, {
+    "asn": "8412",
+    "handle": "magentatelekom"
+}, {
+    "asn": "8422",
+    "handle": "NetCologneNEWS"
+}, {
+    "asn": "8447",
+    "handle": "A1Telekom"
+}, {
+    "asn": "8455",
+    "handle": "as8455"
+}, {
+    "asn": "8559",
+    "handle": "KabelplusDK"
+}, {
+    "asn": "8640",
+    "handle": "Zurich"
+}, {
+    "asn": "8758",
+    "handle": "iwayag"
+}, {
+    "asn": "8803",
+    "handle": "migros"
+}, {
+    "asn": "8881",
+    "handle": "versatel"
+}, {
+    "asn": "9009",
+    "handle": "WeAreM247"
+}, {
+    "asn": "9031",
+    "handle": "edpnet"
+}, {
+    "asn": "9121",
+    "handle": "TurkTelekom"
+}, {
+    "asn": "9208",
+    "handle": "win_ICTpartner"
+}, {
+    "asn": "9299",
+    "handle": "PLDT_Cares"
+}, {
+    "asn": "9318",
+    "handle": "SK_Bworld"
+}, {
+    "asn": "9829",
+    "handle": "BSNLCorporate"
+}, {
+    "asn": "10139",
+    "handle": "LiveSmart"
+}, {
+    "asn": "10139",
+    "handle": "SMARTCares"
+}, {
+    "asn": "10507",
+    "handle": "sprint"
+}, {
+    "asn": "10838",
+    "handle": "getspectrum"
+}, {
+    "asn": "11427",
+    "handle": "GetSpectrum"
+}, {
+    "asn": "11831",
+    "handle": "eSecureData"
+}, {
+    "asn": "12271",
+    "handle": "getspectrum"
+}, {
+    "asn": "12322",
+    "handle": "free"
+}, {
+    "asn": "12330",
+    "handle": "MPYPalvelut"
+}, {
+    "asn": "12337",
+    "handle": "norisnetwork"
+}, {
+    "asn": "12350",
+    "handle": "VTX_Telecom"
+}, {
+    "asn": "12353",
+    "handle": "VodafonePT"
+}, {
+    "asn": "12392",
+    "handle": "VOOetvous"
+}, {
+    "asn": "12430",
+    "handle": "vodafone_es"
+}, {
+    "asn": "12511",
+    "handle": "swisspost"
+}, {
+    "asn": "12566",
+    "handle": "SFR"
+}, {
+    "asn": "12576",
+    "handle": "ee"
+}, {
+    "asn": "12582",
+    "handle": "TeliaFinland"
+}, {
+    "asn": "12626",
+    "handle": "SFR"
+}, {
+    "asn": "12735",
+    "handle": "TurkNet"
+}, {
+    "asn": "12859",
+    "handle": "bitnl"
+}, {
+    "asn": "12874",
+    "handle": "FASTWEB"
+}, {
+    "asn": "12876",
+    "handle": "as12876"
+}, {
+    "asn": "13030",
+    "handle": "init7"
+}, {
+    "asn": "13036",
+    "handle": "TMobile_CZE"
+}, {
+    "asn": "13156",
+    "handle": "nowoportugal"
+}, {
+    "asn": "13170",
+    "handle": "KaisanetOy"
+}, {
+    "asn": "13213",
+    "handle": "UK2"
+}, {
+    "asn": "13283",
+    "handle": "juliusbaer"
+}, {
+    "asn": "14061",
+    "handle": "DigitalOcean"
+}, {
+    "asn": "14525",
+    "handle": "StellarTechInc"
+}, {
+    "asn": "14537",
+    "handle": "Continent8"
+}, {
+    "asn": "15424",
+    "handle": "ElisaOyj"
+}, {
+    "asn": "15435",
+    "handle": "deltafiber"
+}, {
+    "asn": "15496",
+    "handle": "AaltoUniversity"
+}, {
+    "asn": "15517",
+    "handle": "netstream"
+}, {
+    "asn": "15547",
+    "handle": "bliblablo_ch"
+}, {
+    "asn": "15557",
+    "handle": "SFR"
+}, {
+    "asn": "15585",
+    "handle": "kanton_bern"
+}, {
+    "asn": "15623",
+    "handle": "cyberlinkag_noc"
+}, {
+    "asn": "15796",
+    "handle": "SaltMobile_Care"
+}, {
+    "asn": "16019",
+    "handle": "Vodafone_CZ"
+}, {
+    "asn": "16086",
+    "handle": "DNA_fi"
+}, {
+    "asn": "16135",
+    "handle": "Turkcell"
+}, {
+    "asn": "16302",
+    "handle": "SuomiCom"
+}, {
+    "asn": "16591",
+    "handle": "GoogleFiber"
+}, {
+    "asn": "17090",
+    "handle": "dbdesignllc"
+}, {
+    "asn": "17147",
+    "handle": "CSIRTGOB"
+}, {
+    "asn": "18209",
+    "handle": "ACTFibernet"
+}, {
+    "asn": "19148",
+    "handle": "Leaseweb"
+}, {
+    "asn": "20001",
+    "handle": "getspectrum"
+}, {
+    "asn": "20115",
+    "handle": "getspectrum"
+}, {
+    "asn": "20868",
+    "handle": "ABBgroupnews"
+}, {
+    "asn": "20904",
+    "handle": "Netplaza"
+}, {
+    "asn": "20931",
+    "handle": "ElisaOyj"
+}, {
+    "asn": "21013",
+    "handle": "eww_Gruppe"
+}, {
+    "asn": "21221",
+    "handle": "infopact"
+}, {
+    "asn": "21334",
+    "handle": "Vodafone_HU"
+}, {
+    "asn": "21366",
+    "handle": "ElisaOyj"
+}, {
+    "asn": "21502",
+    "handle": "Numericable"
+}, {
+    "asn": "21928",
+    "handle": "TMobile"
+}, {
+    "asn": "22394",
+    "handle": "CELLCOATT"
+}, {
+    "asn": "22773",
+    "handle": "CoxComm"
+}, {
+    "asn": "23889",
+    "handle": "telecom_mu"
+}, {
+    "asn": "23944",
+    "handle": "SKYserves"
+}, {
+    "asn": "24713",
+    "handle": "CGI_FI"
+}, {
+    "asn": "24751",
+    "handle": "JNTPSP"
+}, {
+    "asn": "24904",
+    "handle": "knetfr"
+}, {
+    "asn": "24940",
+    "handle": "Hetzner_Online"
+}, {
+    "asn": "24952",
+    "handle": "firmenich"
+}, {
+    "asn": "25021",
+    "handle": "staat_freiburg"
+}, {
+    "asn": "25106",
+    "handle": "by_mts"
+}, {
+    "asn": "25178",
+    "handle": "PCCWGlobal"
+}, {
+    "asn": "25255",
+    "handle": "dreioesterreich"
+}, {
+    "asn": "27796",
+    "handle": "Ovnicom"
+}, {
+    "asn": "28329",
+    "handle": "G8Networks"
+}, {
+    "asn": "28403",
+    "handle": "RadiomovilDIPSA"
+}, {
+    "asn": "28573",
+    "handle": "NEToficial"
+}, {
+    "asn": "28686",
+    "handle": "AVECTRIS_IT"
+}, {
+    "asn": "28704",
+    "handle": "proximus"
+}, {
+    "asn": "29132",
+    "handle": "imageworldFIN"
+}, {
+    "asn": "29222",
+    "handle": "infomaniak"
+}, {
+    "asn": "29372",
+    "handle": "SFR"
+}, {
+    "asn": "29422",
+    "handle": "TeliaFinland"
+}, {
+    "asn": "29485",
+    "handle": "A1Hrvatska"
+}, {
+    "asn": "29695",
+    "handle": "Altibox"
+}, {
+    "asn": "29854",
+    "handle": "WestHost"
+}, {
+    "asn": "30633",
+    "handle": "Leaseweb"
+}, {
+    "asn": "30722",
+    "handle": "VodafoneIT"
+}, {
+    "asn": "30736",
+    "handle": "ASERGOGroup"
+}, {
+    "asn": "30798",
+    "handle": "TNNetOy"
+}, {
+    "asn": "30900",
+    "handle": "webworldireland"
+}, {
+    "asn": "31423",
+    "handle": "PROMAX"
+}, {
+    "asn": "31615",
+    "handle": "tmobile_webcare"
+}, {
+    "asn": "31639",
+    "handle": "planeettanet"
+}, {
+    "asn": "32489",
+    "handle": "AmanahTech"
+}, {
+    "asn": "33083",
+    "handle": "Axcelx"
+}, {
+    "asn": "33182",
+    "handle": "hostdime"
+}, {
+    "asn": "33801",
+    "handle": "EdzcomOfficial"
+}, {
+    "asn": "33915",
+    "handle": "ZiggoWebcare"
+}, {
+    "asn": "34781",
+    "handle": "citycable"
+}, {
+    "asn": "34803",
+    "handle": "BroadbandGibraltarLtd."
+}, {
+    "asn": "35228",
+    "handle": "O2"
+}, {
+    "asn": "35280",
+    "handle": "Acorus Networks/Volterra"
+}, {
+    "asn": "35382",
+    "handle": "Capnova"
+}, {
+    "asn": "35612",
+    "handle": "eolo_it"
+}, {
+    "asn": "36077",
+    "handle": "dynamichosting"
+}, {
+    "asn": "36351",
+    "handle": "IBMcloud"
+}, {
+    "asn": "36352",
+    "handle": "ColoCrossing"
+}, {
+    "asn": "36850",
+    "handle": "unc"
+}, {
+    "asn": "37611",
+    "handle": "Afrihost"
+}, {
+    "asn": "37705",
+    "handle": "Topnet_FSI"
+}, {
+    "asn": "38195",
+    "handle": "Superloopnet"
+}, {
+    "asn": "39651",
+    "handle": "ComHemAB"
+}, {
+    "asn": "39699",
+    "handle": "LouneaOy"
+}, {
+    "asn": "39857",
+    "handle": "AaltoUniversity"
+}, {
+    "asn": "40676",
+    "handle": "PsychzNetworks"
+}, {
+    "asn": "41164",
+    "handle": "Get_Telia_Norway"
+}, {
+    "asn": "41998",
+    "handle": "NetComBW"
+}, {
+    "asn": "42541",
+    "handle": "FiberBy"
+}, {
+    "asn": "42772",
+    "handle": "a1belarus"
+}, {
+    "asn": "43289",
+    "handle": "trabia_network"
+}, {
+    "asn": "43350",
+    "handle": "nforce_bv"
+}, {
+    "asn": "44530",
+    "handle": "hopusnet"
+}, {
+    "asn": "44944",
+    "handle": "Telenet"
+}, {
+    "asn": "45011",
+    "handle": "A3Sverige"
+}, {
+    "asn": "45595",
+    "handle": "PTCLOfficial"
+}, {
+    "asn": "46375",
+    "handle": "sonic"
+}, {
+    "asn": "46562",
+    "handle": "livetss"
+}, {
+    "asn": "46664",
+    "handle": "volumedrive"
+}, {
+    "asn": "47147",
+    "handle": "_ANEXIA"
+}, {
+    "asn": "47377",
+    "handle": "OrangeBeFR"
+}, {
+    "asn": "47524",
+    "handle": "turksat"
+}, {
+    "asn": "47800",
+    "handle": "lanetua"
+}, {
+    "asn": "48403",
+    "handle": "planeettanet"
+}, {
+    "asn": "49071",
+    "handle": "srgssr"
+}, {
+    "asn": "49422",
+    "handle": "DNA_fi"
+}, {
+    "asn": "49505",
+    "handle": "selectel"
+}, {
+    "asn": "49762",
+    "handle": "ElisaOyj"
+}, {
+    "asn": "49826",
+    "handle": "LouneaOy"
+}, {
+    "asn": "50266",
+    "handle": "tmobile_webcare"
+}, {
+    "asn": "50290",
+    "handle": "Valtori_"
+}, {
+    "asn": "50340",
+    "handle": "selectel"
+}, {
+    "asn": "50377",
+    "handle": "ITaitoOy"
+}, {
+    "asn": "51164",
+    "handle": "CybercomFinland"
+}, {
+    "asn": "51207",
+    "handle": "Free Mobile"
+}, {
+    "asn": "51728",
+    "handle": "SeltimilHuolto"
+}, {
+    "asn": "51820",
+    "handle": "Swisscom"
+}, {
+    "asn": "51935",
+    "handle": "BLCkonserni"
+}, {
+    "asn": "55536",
+    "handle": "pacswitch"
+}, {
+    "asn": "56478",
+    "handle": "HyperopticCS"
+}, {
+    "asn": "56655",
+    "handle": "TerraHost"
+}, {
+    "asn": "57066",
+    "handle": "Yleisradio"
+}, {
+    "asn": "57370",
+    "handle": "Swisscom"
+}, {
+    "asn": "57866",
+    "handle": "fusixnetworks"
+}, {
+    "asn": "57933",
+    "handle": "IRISnet_team"
+}, {
+    "asn": "58003",
+    "handle": "planeettanet"
+}, {
+    "asn": "58065",
+    "handle": "packetexchange1"
+}, {
+    "asn": "58820",
+    "handle": "as58820"
+}, {
+    "asn": "60068",
+    "handle": "CDN77com"
+}, {
+    "asn": "60422",
+    "handle": "powerhostingdk"
+}, {
+    "asn": "60633",
+    "handle": "Swisscom"
+}, {
+    "asn": "61098",
+    "handle": "Exoscale"
+}, {
+    "asn": "62044",
+    "handle": "Zscaler_Inc_EMEA"
+}, {
+    "asn": "63023",
+    "handle": "GTHostCOM"
+}, {
+    "asn": "132199",
+    "handle": "talk2GLOBE"
+}, {
+    "asn": "132335",
+    "handle": "leapswitch"
+}, {
+    "asn": "133480",
+    "handle": "intergridanz"
+}, {
+    "asn": "134067",
+    "handle": "unitiwireless"
+}, {
+    "asn": "135478",
+    "handle": "di_cbn"
+}, {
+    "asn": "139879",
+    "handle": "galaxy_net_pk"
+}, {
+    "asn": "196655",
+    "handle": "NivosOy"
+}, {
+    "asn": "198024",
+    "handle": "IstekkiOy"
+}, {
+    "asn": "199524",
+    "handle": "gcorelabs"
+}, {
+    "asn": "200698",
+    "handle": "GlobalHost_bh"
+}, {
+    "asn": "202053",
+    "handle": "UpCloud"
+}, {
+    "asn": "203609",
+    "handle": "Erillisverkot"
+}, {
+    "asn": "205668",
+    "handle": "macminihost"
+}, {
+    "asn": "206067",
+    "handle": "ThreeUK"
+}, {
+    "asn": "206067",
+    "handle": "ThreeUKSupport"
+}, {
+    "asn": "206567",
+    "handle": "tamedia"
+}, {
+    "asn": "206927",
+    "handle": "Bittium"
+}, {
+    "asn": "207960",
+    "handle": "AS_207960"
+}, {
+    "asn": "209507",
+    "handle": "DashfloNet"
+}, {
+    "asn": "211562",
+    "handle": "as211562"
+}, {
+    "asn": "262287",
+    "handle": "maxihost"
+}, {
+    "asn": "263812",
+    "handle": "ipxonnetworks"
+}, {
+    "asn": "264649",
+    "handle": "nuthost"
+}, {
+    "asn": "265656",
+    "handle": "AnacondaWeb "
+}, {
+    "asn": "393886",
+    "handle": "Leaseweb"
+}, {
+    "asn": "394256",
+    "handle": "Tech_Futures"
+}, {
+    "asn": "394380",
+    "handle": "Leaseweb"
+}, {
+    "asn": "395954",
+    "handle": "Leaseweb"
+}, {
+    "asn": "396190",
+    "handle": "Leaseweb"
+}, {
+    "asn": "396362",
+    "handle": "Leaseweb"
+}, {
+    "asn": "397143",
+    "handle": "neptunenets"
+}, {
+    "asn": "397373",
+    "handle": "h4ytec"
+}];
