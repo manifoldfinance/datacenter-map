@@ -26,3 +26,23 @@
         "exchanges": ["INTERLAN", "RONIX", "Balcan-IX"]  // Exchanges Interchange
     },
 ```
+
+### Twitter Handles
+
+ASN/ISP Twitter Handles
+
+```js
+const ISP_TWITTER = [{
+    "asn": "1",
+    "handle": "CenturyLink"
+}, {
+    "asn": "2",
+    "handle": "UDelaware"
+}, {
+    "asn": "3",
+    "handle": "mit"
+}, {
+    "asn": "4",
+    "handle": "usc"
+}]
+```
