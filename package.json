@@ -1,18 +1,22 @@
 {
-  "name": "datacenter-map",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "global-datacenter-topology",
+  "version": "1.1.0",
+  "description": "Global Index of Datacenters and Connecting Backbones",
+  "files": [
+    "src/**"
+  ],
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manifoldfinance/datacenter-map.git"
   },
-  "keywords": [],
-  "author": "sam bacha",
-  "license": "ISC",
+  "keywords": [
+    "data centers",
+    "cloud service providers",
+    "bare metal"
+  ],
+  "author": "sam bacha <sam@manifoldfinance.com",
+  "license": "SEE LICENSE IN LICENSE ",
   "bugs": {
     "url": "https://github.com/manifoldfinance/datacenter-map/issues"
   },

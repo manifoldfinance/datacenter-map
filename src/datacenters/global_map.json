@@ -1,4 +1,4 @@
-module.exports = {
+{
     "jib1": {
         "latlon": {
             "lat": 11.5730593,
@@ -9,7 +9,9 @@ module.exports = {
         "country": "Djibouti",
         "pop": "jib1",
         "street": "Haramous 3G Building, Boulaos Street",
-        "exchanges": ["DjIX"]
+        "exchanges": [
+            "DjIX"
+        ]
     },
     "pao1": {
         "latlon": {
@@ -21,7 +23,10 @@ module.exports = {
         "country": "United States",
         "pop": "pao1",
         "street": "529 Bryant St.",
-        "exchanges": ["Equinix Palo Alto", "NASA-AIX"]
+        "exchanges": [
+            "Equinix Palo Alto",
+            "NASA-AIX"
+        ]
     },
     "zag1": {
         "latlon": {
@@ -33,7 +38,9 @@ module.exports = {
         "country": "Croatia",
         "pop": "zag1",
         "street": "Ul. Josipa Marohni\u0107a 5",
-        "exchanges": ["CIX"]
+        "exchanges": [
+            "CIX"
+        ]
     },
     "buh1": {
         "latlon": {
@@ -45,7 +52,11 @@ module.exports = {
         "country": "Romania",
         "pop": "buh1",
         "street": "8 Dimitrie Pompei Blvd",
-        "exchanges": ["INTERLAN", "RONIX", "Balcan-IX"]
+        "exchanges": [
+            "INTERLAN",
+            "RONIX",
+            "Balcan-IX"
+        ]
     },
     "yxe1": {
         "latlon": {
@@ -57,7 +68,9 @@ module.exports = {
         "country": "Canada",
         "pop": "yxe1",
         "street": "110 Maintenance Road",
-        "exchanges": ["YXEIX"]
+        "exchanges": [
+            "YXEIX"
+        ]
     },
     "yqb1": {
         "latlon": {
@@ -69,7 +82,9 @@ module.exports = {
         "country": "Canada",
         "pop": "yqb1",
         "street": "2675 Boulevard du Parc Technologique,",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "fra4": {
         "latlon": {
@@ -129,7 +144,9 @@ module.exports = {
         "country": "United States",
         "pop": "mgm1",
         "street": "445 Dexter Avenue",
-        "exchanges": ["MGMix Montgomery"]
+        "exchanges": [
+            "MGMix Montgomery"
+        ]
     },
     "zrh3": {
         "latlon": {
@@ -141,7 +158,10 @@ module.exports = {
         "country": "Switzerland",
         "pop": "zrh3",
         "street": "Josefstrasse 225",
-        "exchanges": ["Equinix Zurich", "SwissIX"]
+        "exchanges": [
+            "Equinix Zurich",
+            "SwissIX"
+        ]
     },
     "vno1": {
         "latlon": {
@@ -153,7 +173,10 @@ module.exports = {
         "country": "Lithuania",
         "pop": "vno1",
         "street": "Juozapaviciaus str. 13",
-        "exchanges": ["BALT-IX", "LIXP Vilnius"]
+        "exchanges": [
+            "BALT-IX",
+            "LIXP Vilnius"
+        ]
     },
     "sea1": {
         "latlon": {
@@ -165,7 +188,11 @@ module.exports = {
         "country": "United States",
         "pop": "sea1",
         "street": "2001 6th Ave., Suite 1200",
-        "exchanges": ["Equinix Seattle", "MegaIX Seattle", "SIX"]
+        "exchanges": [
+            "Equinix Seattle",
+            "MegaIX Seattle",
+            "SIX"
+        ]
     },
     "cmh1": {
         "latlon": {
@@ -177,7 +204,9 @@ module.exports = {
         "country": "United States",
         "pop": "cmh1",
         "street": "575 Scherers Court",
-        "exchanges": ["OhioIX"]
+        "exchanges": [
+            "OhioIX"
+        ]
     },
     "nyc3": {
         "latlon": {
@@ -213,7 +242,9 @@ module.exports = {
         "country": "United States",
         "pop": "msn1",
         "street": "222 West Washington Avenue",
-        "exchanges": ["MadIX"]
+        "exchanges": [
+            "MadIX"
+        ]
     },
     "dsm1": {
         "latlon": {
@@ -225,7 +256,9 @@ module.exports = {
         "country": "United States",
         "pop": "dsm1",
         "street": "666 Walnut Street",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "lis1": {
         "latlon": {
@@ -237,7 +270,10 @@ module.exports = {
         "country": "Portugal",
         "pop": "lis1",
         "street": "Avenida Severiano Falc\u00e3o 14, Prior Velho",
-        "exchanges": ["GigaPix", "Equinix Lisbon"]
+        "exchanges": [
+            "GigaPix",
+            "Equinix Lisbon"
+        ]
     },
     "fra3": {
         "latlon": {
@@ -273,7 +309,9 @@ module.exports = {
         "country": "United Kingdom",
         "pop": "edi1",
         "street": "The Clocktower Estate, Flassches Yard",
-        "exchanges": ["LINX Scotland"]
+        "exchanges": [
+            "LINX Scotland"
+        ]
     },
     "hkg1": {
         "latlon": {
@@ -285,7 +323,13 @@ module.exports = {
         "country": "Hong Kong",
         "pop": "hkg1",
         "street": "399 Chai Wan Road",
-        "exchanges": ["AMS-IX HK", "Equinix Hong Kong", "HKIX", "IAIX", "BBIX Hong Kong"]
+        "exchanges": [
+            "AMS-IX HK",
+            "Equinix Hong Kong",
+            "HKIX",
+            "IAIX",
+            "BBIX Hong Kong"
+        ]
     },
     "mnl1": {
         "latlon": {
@@ -297,7 +341,9 @@ module.exports = {
         "country": "Philippines",
         "pop": "mnl1",
         "street": "8003-A East Ave",
-        "exchanges": ["PhOpenIX"]
+        "exchanges": [
+            "PhOpenIX"
+        ]
     },
     "pvd1": {
         "latlon": {
@@ -321,7 +367,10 @@ module.exports = {
         "country": "Greece",
         "pop": "ath1",
         "street": "Ifaistou 76",
-        "exchanges": ["GR-IX::Athens", "SEECIX"]
+        "exchanges": [
+            "GR-IX::Athens",
+            "SEECIX"
+        ]
     },
     "tia1": {
         "latlon": {
@@ -345,7 +394,9 @@ module.exports = {
         "country": "United States",
         "pop": "det1",
         "street": "24700 Northwestern Hwy",
-        "exchanges": ["DET-IX"]
+        "exchanges": [
+            "DET-IX"
+        ]
     },
     "sof1": {
         "latlon": {
@@ -357,7 +408,13 @@ module.exports = {
         "country": "Bulgaria",
         "pop": "sof1",
         "street": "122 Ovche Pole Str",
-        "exchanges": ["BIX.BG", "B-IX", "NetIX", "OM-NIX", "T-CIX"]
+        "exchanges": [
+            "BIX.BG",
+            "B-IX",
+            "NetIX",
+            "OM-NIX",
+            "T-CIX"
+        ]
     },
     "sof2": {
         "latlon": {
@@ -393,7 +450,9 @@ module.exports = {
         "country": "United States",
         "pop": "pwm1",
         "street": "9 Westland Avenue",
-        "exchanges": ["NNENIX"]
+        "exchanges": [
+            "NNENIX"
+        ]
     },
     "xrs1": {
         "latlon": {
@@ -405,7 +464,10 @@ module.exports = {
         "country": "United States",
         "pop": "xrs1",
         "street": "12100 Sunrise Valley Dr.",
-        "exchanges": ["Any2 East", "LINX NoVA"]
+        "exchanges": [
+            "Any2 East",
+            "LINX NoVA"
+        ]
     },
     "pnh1": {
         "latlon": {
@@ -417,7 +479,9 @@ module.exports = {
         "country": "Cambodia",
         "pop": "pnh1",
         "street": "Number 308, Preah Monivong Boulevard",
-        "exchanges": ["CNX"]
+        "exchanges": [
+            "CNX"
+        ]
     },
     "hel1": {
         "latlon": {
@@ -429,7 +493,10 @@ module.exports = {
         "country": "Finland",
         "pop": "hel1",
         "street": "Uutiskatu 5",
-        "exchanges": ["FICIX", "Equinix Helsinki"]
+        "exchanges": [
+            "FICIX",
+            "Equinix Helsinki"
+        ]
     },
     "mil3": {
         "latlon": {
@@ -489,7 +556,9 @@ module.exports = {
         "country": "Canada",
         "pop": "yyc1",
         "street": "840 7th Avenue SW, Suite 300",
-        "exchanges": ["YYCIX"]
+        "exchanges": [
+            "YYCIX"
+        ]
     },
     "tor2": {
         "latlon": {
@@ -513,7 +582,15 @@ module.exports = {
         "country": "Sweden",
         "pop": "sto1",
         "street": "Marieh\u00e4llsv\u00e4gen 36",
-        "exchanges": ["NetNod-A", "NetNod-B", "SOLIX", "STHIX", "Global-IX", "DataIX", "DataIX-2"]
+        "exchanges": [
+            "NetNod-A",
+            "NetNod-B",
+            "SOLIX",
+            "STHIX",
+            "Global-IX",
+            "DataIX",
+            "DataIX-2"
+        ]
     },
     "ska1": {
         "latlon": {
@@ -525,7 +602,9 @@ module.exports = {
         "country": "United States",
         "pop": "ska1",
         "street": "422 W Riverside Ave",
-        "exchanges": ["SpokaneIX"]
+        "exchanges": [
+            "SpokaneIX"
+        ]
     },
     "bkk1": {
         "latlon": {
@@ -537,7 +616,9 @@ module.exports = {
         "country": "Thailand",
         "pop": "bkk1",
         "street": "1856 Interlink Tower II Bangna Trad Rd K.M. 4.5, BangNa",
-        "exchanges": ["BKNIX"]
+        "exchanges": [
+            "BKNIX"
+        ]
     },
     "cph1": {
         "latlon": {
@@ -549,7 +630,11 @@ module.exports = {
         "country": "Denmark",
         "pop": "cph1",
         "street": "Industriparken 20",
-        "exchanges": ["DIX", "Netnod Copenhagen", "STHIX Copenhagen"]
+        "exchanges": [
+            "DIX",
+            "Netnod Copenhagen",
+            "STHIX Copenhagen"
+        ]
     },
     "man2": {
         "latlon": {
@@ -573,7 +658,10 @@ module.exports = {
         "country": "Brazil",
         "pop": "sao1",
         "street": "Alameda Araguaia 3641",
-        "exchanges": ["IX.br (PTT.br) Sao Paulo", "Equinix Sao Paulo"]
+        "exchanges": [
+            "IX.br (PTT.br) Sao Paulo",
+            "Equinix Sao Paulo"
+        ]
     },
     "sao2": {
         "latlon": {
@@ -609,7 +697,9 @@ module.exports = {
         "country": "usa",
         "pop": "orf2",
         "street": "1900 Corporate Landing Pkwy",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "mso1": {
         "latlon": {
@@ -633,7 +723,9 @@ module.exports = {
         "country": "usa",
         "pop": "tus1",
         "street": "1215 E Pennsylvania St",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "yvr1": {
         "latlon": {
@@ -657,7 +749,9 @@ module.exports = {
         "country": "United Arab Emirates",
         "pop": "dxb1",
         "street": "International Media Production Zone (IMPZ), Building F90, Sheikh",
-        "exchanges": ["UAE-IX"]
+        "exchanges": [
+            "UAE-IX"
+        ]
     },
     "tor4": {
         "latlon": {
@@ -693,7 +787,11 @@ module.exports = {
         "country": "Canada",
         "pop": "tor1",
         "street": "151 Front St.",
-        "exchanges": ["Equinix Toronto", "MegaIX Toronto", "TorIX"]
+        "exchanges": [
+            "Equinix Toronto",
+            "MegaIX Toronto",
+            "TorIX"
+        ]
     },
     "kbp1": {
         "latlon": {
@@ -705,7 +803,12 @@ module.exports = {
         "country": "Ukraine",
         "pop": "kbp1",
         "street": "Gaydara 50 Street",
-        "exchanges": ["DTEL-IX", "GigaNET", "UA-IX", "PITER-IX Kiev"]
+        "exchanges": [
+            "DTEL-IX",
+            "GigaNET",
+            "UA-IX",
+            "PITER-IX Kiev"
+        ]
     },
     "mnz1": {
         "latlon": {
@@ -729,7 +832,10 @@ module.exports = {
         "country": "United States",
         "pop": "stl1",
         "street": "210 N Tucker Blvd",
-        "exchanges": ["MidWest-IX STL", "STLIX"]
+        "exchanges": [
+            "MidWest-IX STL",
+            "STLIX"
+        ]
     },
     "phl1": {
         "latlon": {
@@ -753,7 +859,10 @@ module.exports = {
         "country": "United States",
         "pop": "phl2",
         "street": "401 N Broad Street",
-        "exchanges": ["NYIIX Philadelphia", "PhillyIX"]
+        "exchanges": [
+            "NYIIX Philadelphia",
+            "PhillyIX"
+        ]
     },
     "syd3": {
         "latlon": {
@@ -777,7 +886,9 @@ module.exports = {
         "country": "United States",
         "pop": "slc1",
         "street": "179 E Social Hall Ave.",
-        "exchanges": ["SLIX"]
+        "exchanges": [
+            "SLIX"
+        ]
     },
     "jnb1": {
         "latlon": {
@@ -789,7 +900,10 @@ module.exports = {
         "country": "South Africa",
         "pop": "jnb1",
         "street": "5 Brewery Street, Isando",
-        "exchanges": ["NAPAfrica Johannesburg", "JINX"]
+        "exchanges": [
+            "NAPAfrica Johannesburg",
+            "JINX"
+        ]
     },
     "bct1": {
         "latlon": {
@@ -825,7 +939,11 @@ module.exports = {
         "country": "Estonia",
         "pop": "tll1",
         "street": "14 S\u00f5le str",
-        "exchanges": ["MSK-IX", "RTIX", "TLLIX"]
+        "exchanges": [
+            "MSK-IX",
+            "RTIX",
+            "TLLIX"
+        ]
     },
     "ric2": {
         "latlon": {
@@ -861,7 +979,10 @@ module.exports = {
         "country": "Singapore",
         "pop": "sin2",
         "street": "No. 2 Tai Seng Avenue",
-        "exchanges": ["SOX Singapore", "SGIX"]
+        "exchanges": [
+            "SOX Singapore",
+            "SGIX"
+        ]
     },
     "bos1": {
         "latlon": {
@@ -873,7 +994,10 @@ module.exports = {
         "country": "United States",
         "pop": "bos1",
         "street": "One Summer St",
-        "exchanges": ["Boston Internet Exchange", "Mass-IX"]
+        "exchanges": [
+            "Boston Internet Exchange",
+            "Mass-IX"
+        ]
     },
     "bos2": {
         "latlon": {
@@ -897,7 +1021,11 @@ module.exports = {
         "country": "Singapore",
         "pop": "sin1",
         "street": "20 Ayer Rajah Crescent",
-        "exchanges": ["Equinix Singapore", "MegaIX Singapore", "JBIX"]
+        "exchanges": [
+            "Equinix Singapore",
+            "MegaIX Singapore",
+            "JBIX"
+        ]
     },
     "yvr2": {
         "latlon": {
@@ -909,7 +1037,10 @@ module.exports = {
         "country": "Canada",
         "pop": "yvr2",
         "street": "555 West Hastings St.",
-        "exchanges": ["UNM-Exch Canada-West", "VANIX"]
+        "exchanges": [
+            "UNM-Exch Canada-West",
+            "VANIX"
+        ]
     },
     "yow1": {
         "latlon": {
@@ -921,7 +1052,9 @@ module.exports = {
         "country": "Canada",
         "pop": "yow1",
         "street": "390 March Road, Suite 108",
-        "exchanges": ["OGIX"]
+        "exchanges": [
+            "OGIX"
+        ]
     },
     "ric1": {
         "latlon": {
@@ -933,7 +1066,9 @@ module.exports = {
         "country": "United States",
         "pop": "ric1",
         "street": "9680 Atlee Commons Dr.",
-        "exchanges": ["RVA-IX"]
+        "exchanges": [
+            "RVA-IX"
+        ]
     },
     "mba1": {
         "latlon": {
@@ -957,7 +1092,9 @@ module.exports = {
         "country": "United States",
         "pop": "rno1",
         "street": "3545 Airway Dr",
-        "exchanges": ["TahoeIX"]
+        "exchanges": [
+            "TahoeIX"
+        ]
     },
     "las1": {
         "latlon": {
@@ -969,7 +1106,9 @@ module.exports = {
         "country": "United States",
         "pop": "las1",
         "street": "1110 Palms Airport Dr",
-        "exchanges": ["Vegas-IX"]
+        "exchanges": [
+            "Vegas-IX"
+        ]
     },
     "las2": {
         "latlon": {
@@ -993,7 +1132,9 @@ module.exports = {
         "country": "United States",
         "pop": "abq1",
         "street": "505 Marquette Ave NW",
-        "exchanges": ["ABQIX"]
+        "exchanges": [
+            "ABQIX"
+        ]
     },
     "man4": {
         "latlon": {
@@ -1017,7 +1158,9 @@ module.exports = {
         "country": "United States",
         "pop": "pit1",
         "street": "100 South Commons, Suite 126",
-        "exchanges": ["PIT-IX "]
+        "exchanges": [
+            "PIT-IX "
+        ]
     },
     "yhz1": {
         "latlon": {
@@ -1029,7 +1172,9 @@ module.exports = {
         "country": "Canada",
         "pop": "yhz1",
         "street": "7071 Bayers Rd",
-        "exchanges": ["HFXIX"]
+        "exchanges": [
+            "HFXIX"
+        ]
     },
     "per1": {
         "latlon": {
@@ -1041,7 +1186,11 @@ module.exports = {
         "country": "Australia",
         "pop": "per1",
         "street": "4 Millrose Drive",
-        "exchanges": ["EdgeIX Perth", "IX Australia WA", "MegaIX Perth"]
+        "exchanges": [
+            "EdgeIX Perth",
+            "IX Australia WA",
+            "MegaIX Perth"
+        ]
     },
     "msp1": {
         "latlon": {
@@ -1053,7 +1202,9 @@ module.exports = {
         "country": "United States",
         "pop": "msp1",
         "street": "511 11th Ave",
-        "exchanges": ["MICE"]
+        "exchanges": [
+            "MICE"
+        ]
     },
     "gum1": {
         "latlon": {
@@ -1065,7 +1216,9 @@ module.exports = {
         "country": "Guam",
         "pop": "gum1",
         "street": "303 University of Guam,",
-        "exchanges": ["MARIIX"]
+        "exchanges": [
+            "MARIIX"
+        ]
     },
     "lax2": {
         "latlon": {
@@ -1077,7 +1230,9 @@ module.exports = {
         "country": "United States",
         "pop": "lax2",
         "street": "624 South Grand Ave., Suite 110",
-        "exchanges": ["Any2 West"]
+        "exchanges": [
+            "Any2 West"
+        ]
     },
     "oma1": {
         "latlon": {
@@ -1089,7 +1244,9 @@ module.exports = {
         "country": "United States",
         "pop": "oma1",
         "street": "1623 Farnam St., Suite 860",
-        "exchanges": ["OmahaIX"]
+        "exchanges": [
+            "OmahaIX"
+        ]
     },
     "sea2": {
         "latlon": {
@@ -1137,7 +1294,11 @@ module.exports = {
         "country": "United States",
         "pop": "ash1",
         "street": "21715 Filigree Ct",
-        "exchanges": ["Equinix Ashburn", "MegaIX Ashburn", "DACS-IX East"]
+        "exchanges": [
+            "Equinix Ashburn",
+            "MegaIX Ashburn",
+            "DACS-IX East"
+        ]
     },
     "ash2": {
         "latlon": {
@@ -1161,7 +1322,9 @@ module.exports = {
         "country": "United States",
         "pop": "ash3",
         "street": "44274 Round Table Plaza",
-        "exchanges": ["Digital Realty Ashburn IX"]
+        "exchanges": [
+            "Digital Realty Ashburn IX"
+        ]
     },
     "svq1": {
         "latlon": {
@@ -1185,7 +1348,10 @@ module.exports = {
         "country": "United States",
         "pop": "chi1",
         "street": "350 East Cermak Rd.",
-        "exchanges": ["Equinix Chicago", "AMS-IX Chicago"]
+        "exchanges": [
+            "Equinix Chicago",
+            "AMS-IX Chicago"
+        ]
     },
     "tor3": {
         "latlon": {
@@ -1257,7 +1423,9 @@ module.exports = {
         "country": "United States",
         "pop": "atl3",
         "street": "180 Peachtree",
-        "exchanges": ["Equinix Atlanta"]
+        "exchanges": [
+            "Equinix Atlanta"
+        ]
     },
     "atl2": {
         "latlon": {
@@ -1269,7 +1437,10 @@ module.exports = {
         "country": "United States",
         "pop": "atl2",
         "street": "55 Marietta St, Ste 800",
-        "exchanges": ["CIX-ATL", "SNAP"]
+        "exchanges": [
+            "CIX-ATL",
+            "SNAP"
+        ]
     },
     "atl1": {
         "latlon": {
@@ -1281,7 +1452,9 @@ module.exports = {
         "country": "United States",
         "pop": "atl1",
         "street": "56 Marietta St.",
-        "exchanges": ["Digital Realty Atlanta IX (Telx-TIE)"]
+        "exchanges": [
+            "Digital Realty Atlanta IX (Telx-TIE)"
+        ]
     },
     "sea4": {
         "latlon": {
@@ -1305,7 +1478,9 @@ module.exports = {
         "country": "United Kingdom",
         "pop": "lon1",
         "street": "Coriander Ave.",
-        "exchanges": ["LoNAP"]
+        "exchanges": [
+            "LoNAP"
+        ]
     },
     "syd2": {
         "latlon": {
@@ -1329,7 +1504,14 @@ module.exports = {
         "country": "Australia",
         "pop": "syd1",
         "street": "Unit B, 639 Gardeners Road",
-        "exchanges": ["EdgeIX Sydney", "Equinix Sydney", "IX Australia NSW", "MegaIX Sydney", "EdgeIX Melbourne", "CON-IX Brisbane"]
+        "exchanges": [
+            "EdgeIX Sydney",
+            "Equinix Sydney",
+            "IX Australia NSW",
+            "MegaIX Sydney",
+            "EdgeIX Melbourne",
+            "CON-IX Brisbane"
+        ]
     },
     "tpa1": {
         "latlon": {
@@ -1341,7 +1523,9 @@ module.exports = {
         "country": "United States",
         "pop": "tpa1",
         "street": "655 North Franklin St",
-        "exchanges": ["TPAIX"]
+        "exchanges": [
+            "TPAIX"
+        ]
     },
     "lon3": {
         "latlon": {
@@ -1365,7 +1549,9 @@ module.exports = {
         "country": "United States",
         "pop": "bna1",
         "street": "147 Fourth Avenue",
-        "exchanges": ["NashIX"]
+        "exchanges": [
+            "NashIX"
+        ]
     },
     "kul1": {
         "latlon": {
@@ -1377,7 +1563,10 @@ module.exports = {
         "country": "Malaysia",
         "pop": "kul1",
         "street": "Menara AIMS, Changkat Raja Chulan",
-        "exchanges": ["CSL Thai-IX Malaysia", "MyIX"]
+        "exchanges": [
+            "CSL Thai-IX Malaysia",
+            "MyIX"
+        ]
     },
     "lon2": {
         "latlon": {
@@ -1389,7 +1578,9 @@ module.exports = {
         "country": "United Kingdom",
         "pop": "lon2",
         "street": "6&7 Harbour Exchange Square",
-        "exchanges": ["LINX LON1"]
+        "exchanges": [
+            "LINX LON1"
+        ]
     },
     "rst1": {
         "latlon": {
@@ -1437,7 +1628,12 @@ module.exports = {
         "country": "Australia",
         "pop": "mel1",
         "street": "600 Lorimer Street",
-        "exchanges": ["EdgeIX Melbourne", "Equinix Melbourne", "MegaIX Melbourne", "VIC-IX Melbourne"]
+        "exchanges": [
+            "EdgeIX Melbourne",
+            "Equinix Melbourne",
+            "MegaIX Melbourne",
+            "VIC-IX Melbourne"
+        ]
     },
     "lon4": {
         "latlon": {
@@ -1461,7 +1657,10 @@ module.exports = {
         "country": "France",
         "pop": "mrs1",
         "street": "40 Avenue Roger Salengro",
-        "exchanges": ["France-IX Marseille", "DE-CIX Marseille"]
+        "exchanges": [
+            "France-IX Marseille",
+            "DE-CIX Marseille"
+        ]
     },
     "lux1": {
         "latlon": {
@@ -1473,7 +1672,9 @@ module.exports = {
         "country": "Luxembourg",
         "pop": "lux1",
         "street": "4 Rue Graham Bell",
-        "exchanges": ["LU-CIX"]
+        "exchanges": [
+            "LU-CIX"
+        ]
     },
     "lon7": {
         "latlon": {
@@ -1497,7 +1698,10 @@ module.exports = {
         "country": "Czech Republic",
         "pop": "prg1",
         "street": "Nad Elektrarnou 1428/47",
-        "exchanges": ["NIX.CZ", "Peering.cz"]
+        "exchanges": [
+            "NIX.CZ",
+            "Peering.cz"
+        ]
     },
     "bts1": {
         "latlon": {
@@ -1509,7 +1713,10 @@ module.exports = {
         "country": "Slovakia",
         "pop": "bts1",
         "street": "Kop\u00e8ianska 20/c",
-        "exchanges": ["NIX.SK", "SIX.SK"]
+        "exchanges": [
+            "NIX.SK",
+            "SIX.SK"
+        ]
     },
     "hnl1": {
         "latlon": {
@@ -1521,7 +1728,9 @@ module.exports = {
         "country": "United States",
         "pop": "hnl1",
         "street": "3375 Koapaka Street",
-        "exchanges": ["DRF IX"]
+        "exchanges": [
+            "DRF IX"
+        ]
     },
     "slc2": {
         "latlon": {
@@ -1557,7 +1766,9 @@ module.exports = {
         "country": "Switzerland",
         "pop": "zrh2",
         "street": "S\u00e4gereistrasse 35",
-        "exchanges": ["CHIX-CH"]
+        "exchanges": [
+            "CHIX-CH"
+        ]
     },
     "rio1": {
         "latlon": {
@@ -1569,7 +1780,10 @@ module.exports = {
         "country": "Brazil",
         "pop": "rio1",
         "street": " Estrada Adhemar Bebiano, 1380 Del Castilho",
-        "exchanges": ["IX.br (PTT.br) Rio de Janeiro", "Equinix Rio de Janeiro"]
+        "exchanges": [
+            "IX.br (PTT.br) Rio de Janeiro",
+            "Equinix Rio de Janeiro"
+        ]
     },
     "ber1": {
         "latlon": {
@@ -1581,7 +1795,10 @@ module.exports = {
         "country": "Germany",
         "pop": "ber1",
         "street": "L\u00fctzowstrasse 105/106",
-        "exchanges": ["BCIX", "ECIX Berlin"]
+        "exchanges": [
+            "BCIX",
+            "ECIX Berlin"
+        ]
     },
     "tpe1": {
         "latlon": {
@@ -1593,7 +1810,9 @@ module.exports = {
         "country": "Taiwan",
         "pop": "tpe1",
         "street": "9F, No 250, Yang-Guang St.",
-        "exchanges": ["TPIX Taiwan"]
+        "exchanges": [
+            "TPIX Taiwan"
+        ]
     },
     "okc1": {
         "latlon": {
@@ -1605,7 +1824,9 @@ module.exports = {
         "country": "United States",
         "pop": "okc1",
         "street": "7725 W Reno Ave",
-        "exchanges": ["iX-OKC"]
+        "exchanges": [
+            "iX-OKC"
+        ]
     },
     "ber2": {
         "latlon": {
@@ -1641,7 +1862,10 @@ module.exports = {
         "country": "Canada",
         "pop": "ywg1",
         "street": "167 Lombard Ave, Suite 570",
-        "exchanges": ["MBIX", "WPGIX"]
+        "exchanges": [
+            "MBIX",
+            "WPGIX"
+        ]
     },
     "pdx3": {
         "latlon": {
@@ -1713,7 +1937,9 @@ module.exports = {
         "country": "France",
         "pop": "par3",
         "street": "114 Rue Ambroise Croizat",
-        "exchanges": ["Equinix Paris"]
+        "exchanges": [
+            "Equinix Paris"
+        ]
     },
     "par2": {
         "latlon": {
@@ -1725,7 +1951,11 @@ module.exports = {
         "country": "France",
         "pop": "par2",
         "street": "137 Boulevard Voltaire",
-        "exchanges": ["Equinix Paris", "France-IX Paris", "LU-CIX"]
+        "exchanges": [
+            "Equinix Paris",
+            "France-IX Paris",
+            "LU-CIX"
+        ]
     },
     "par1": {
         "latlon": {
@@ -1749,7 +1979,12 @@ module.exports = {
         "country": "Japan",
         "pop": "tyo1",
         "street": "",
-        "exchanges": ["BBIX Tokyo", "Equinix Tokyo", "JPNAP Tokyo", "JPIX Tokyo"]
+        "exchanges": [
+            "BBIX Tokyo",
+            "Equinix Tokyo",
+            "JPNAP Tokyo",
+            "JPIX Tokyo"
+        ]
     },
     "ywg2": {
         "latlon": {
@@ -1773,7 +2008,9 @@ module.exports = {
         "country": "Canada",
         "pop": "ymq1",
         "street": "1250 Rene Lvesque Ouest",
-        "exchanges": ["QIX Montreal"]
+        "exchanges": [
+            "QIX Montreal"
+        ]
     },
     "nyc8": {
         "latlon": {
@@ -1809,7 +2046,10 @@ module.exports = {
         "country": "Japan",
         "pop": "osa1",
         "street": "Nishishinsaibashi Building, 1-26-1 Shinmachi Nishi-ku",
-        "exchanges": ["BBIX Osaka", "JPNAP Osaka"]
+        "exchanges": [
+            "BBIX Osaka",
+            "JPNAP Osaka"
+        ]
     },
     "hou1": {
         "latlon": {
@@ -1833,7 +2073,9 @@ module.exports = {
         "country": "United States",
         "pop": "hou2",
         "street": "1301 Fannin Street",
-        "exchanges": ["HOUIX"]
+        "exchanges": [
+            "HOUIX"
+        ]
     },
     "hou3": {
         "latlon": {
@@ -1845,7 +2087,9 @@ module.exports = {
         "country": "",
         "pop": "hou3",
         "street": "5170 Westway Park Blvd",
-        "exchanges": ["CyrusOne Houston"]
+        "exchanges": [
+            "CyrusOne Houston"
+        ]
     },
     "far1": {
         "latlon": {
@@ -1917,7 +2161,12 @@ module.exports = {
         "country": "Spain",
         "pop": "mad1",
         "street": "Calle Albasanz 71",
-        "exchanges": ["ESPANIX Lower", "ESPANIX Upper", "DE-CIX Madrid", "IXPlay"]
+        "exchanges": [
+            "ESPANIX Lower",
+            "ESPANIX Upper",
+            "DE-CIX Madrid",
+            "IXPlay"
+        ]
     },
     "mci3": {
         "latlon": {
@@ -1929,7 +2178,9 @@ module.exports = {
         "country": "United States",
         "pop": "mci3",
         "street": "1102 Grand Blvd, Suite 1100",
-        "exchanges": ["KCIX"]
+        "exchanges": [
+            "KCIX"
+        ]
     },
     "mci2": {
         "latlon": {
@@ -1989,7 +2240,9 @@ module.exports = {
         "country": "",
         "pop": "phx5",
         "street": "2335 S Ellis St",
-        "exchanges": ["CyrusOne Phoenix"]
+        "exchanges": [
+            "CyrusOne Phoenix"
+        ]
     },
     "phx6": {
         "latlon": {
@@ -2037,7 +2290,11 @@ module.exports = {
         "country": "United States",
         "pop": "lax1",
         "street": "600 West 7th Ave.",
-        "exchanges": ["Equinix Los Angeles", "LAIIX", "MegaIX Los Angeles"]
+        "exchanges": [
+            "Equinix Los Angeles",
+            "LAIIX",
+            "MegaIX Los Angeles"
+        ]
     },
     "phx2": {
         "latlon": {
@@ -2049,7 +2306,9 @@ module.exports = {
         "country": "United States",
         "pop": "phx2",
         "street": "3402 East University Dr",
-        "exchanges": ["Phoenix IX"]
+        "exchanges": [
+            "Phoenix IX"
+        ]
     },
     "osl1": {
         "latlon": {
@@ -2061,7 +2320,10 @@ module.exports = {
         "country": "Norway",
         "pop": "osl1",
         "street": "Ulvenveien 89b",
-        "exchanges": ["FIXO", "NIX"]
+        "exchanges": [
+            "FIXO",
+            "NIX"
+        ]
     },
     "man1": {
         "latlon": {
@@ -2073,7 +2335,10 @@ module.exports = {
         "country": "United Kingdom",
         "pop": "man1",
         "street": "Manchester Science Park, Lloyd Street North",
-        "exchanges": ["IXManchester (LINX)", "Equinix Manchester"]
+        "exchanges": [
+            "IXManchester (LINX)",
+            "Equinix Manchester"
+        ]
     },
     "stl2": {
         "latlon": {
@@ -2097,7 +2362,9 @@ module.exports = {
         "country": "United Kingdom",
         "pop": "lba1",
         "street": "11-15 Hunslet Road",
-        "exchanges": ["IX Leeds"]
+        "exchanges": [
+            "IX Leeds"
+        ]
     },
     "lon6": {
         "latlon": {
@@ -2121,7 +2388,9 @@ module.exports = {
         "country": "United States",
         "pop": "jax1",
         "street": "421 W Church St",
-        "exchanges": ["JXIX"]
+        "exchanges": [
+            "JXIX"
+        ]
     },
     "fmt2": {
         "latlon": {
@@ -2133,7 +2402,11 @@ module.exports = {
         "country": "United States",
         "pop": "fmt2",
         "street": "48233 Warm Springs Blvd.",
-        "exchanges": ["FCIX", "SFMIX", "AMS-IX Bay Area"]
+        "exchanges": [
+            "FCIX",
+            "SFMIX",
+            "AMS-IX Bay Area"
+        ]
     },
     "sin3": {
         "latlon": {
@@ -2157,7 +2430,9 @@ module.exports = {
         "country": "Canada",
         "pop": "yeg1",
         "street": "Scotia Place II, 10060 Jasper Ave",
-        "exchanges": ["YEGIX"]
+        "exchanges": [
+            "YEGIX"
+        ]
     },
     "sac1": {
         "latlon": {
@@ -2205,7 +2480,9 @@ module.exports = {
         "country": "Austria",
         "pop": "vie1",
         "street": "",
-        "exchanges": ["VIX"]
+        "exchanges": [
+            "VIX"
+        ]
     },
     "sjc2": {
         "latlon": {
@@ -2217,7 +2494,9 @@ module.exports = {
         "country": "United States",
         "pop": "sjc2",
         "street": "11 Great Oaks Blvd.",
-        "exchanges": ["Equinix San Jose"]
+        "exchanges": [
+            "Equinix San Jose"
+        ]
     },
     "sjc1": {
         "latlon": {
@@ -2229,7 +2508,9 @@ module.exports = {
         "country": "United States",
         "pop": "sjc1",
         "street": "55 S. Market St, Suite 1400",
-        "exchanges": ["AMS-IX Bay Area"]
+        "exchanges": [
+            "AMS-IX Bay Area"
+        ]
     },
     "fra7": {
         "latlon": {
@@ -2253,7 +2534,9 @@ module.exports = {
         "country": "Hungary",
         "pop": "bud1",
         "street": "Victor Hugo u. 18-22",
-        "exchanges": ["BIX Budapest"]
+        "exchanges": [
+            "BIX Budapest"
+        ]
     },
     "boi1": {
         "latlon": {
@@ -2265,7 +2548,9 @@ module.exports = {
         "country": "usa",
         "pop": "boi1",
         "street": "2653 S Victory View Way",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "orf1": {
         "latlon": {
@@ -2313,7 +2598,10 @@ module.exports = {
         "country": "Germany",
         "pop": "muc1",
         "street": "Seidlstrasse 3",
-        "exchanges": ["DE-CIX Munich", "ECIX Munich"]
+        "exchanges": [
+            "DE-CIX Munich",
+            "ECIX Munich"
+        ]
     },
     "fra5": {
         "latlon": {
@@ -2337,7 +2625,10 @@ module.exports = {
         "country": "Belgium",
         "pop": "bru1",
         "street": "Wezembeekstraat 2 bus 1 ",
-        "exchanges": ["BelgiumIX", "BNIX"]
+        "exchanges": [
+            "BelgiumIX",
+            "BNIX"
+        ]
     },
     "lon9": {
         "latlon": {
@@ -2385,7 +2676,9 @@ module.exports = {
         "country": "Spain",
         "pop": "bio1",
         "street": "Astintze Kalea 24",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "lax5": {
         "latlon": {
@@ -2493,7 +2786,10 @@ module.exports = {
         "country": "Netherlands",
         "pop": "ams2",
         "street": "Kuiperbergweg 13",
-        "exchanges": ["NL-IX", "Equinix Amsterdam"]
+        "exchanges": [
+            "NL-IX",
+            "Equinix Amsterdam"
+        ]
     },
     "ams1": {
         "latlon": {
@@ -2505,7 +2801,12 @@ module.exports = {
         "country": "Netherlands",
         "pop": "ams1",
         "street": "Kruislaan 409",
-        "exchanges": ["AMS-IX", "SPEED-IX", "Asteroid Amsterdam IX", "LSIX"]
+        "exchanges": [
+            "AMS-IX",
+            "SPEED-IX",
+            "Asteroid Amsterdam IX",
+            "LSIX"
+        ]
     },
     "fra2": {
         "latlon": {
@@ -2517,7 +2818,9 @@ module.exports = {
         "country": "Germany",
         "pop": "fra2",
         "street": "Kleyerstrasse 90",
-        "exchanges": ["ECIX Frankfurt"]
+        "exchanges": [
+            "ECIX Frankfurt"
+        ]
     },
     "fra1": {
         "latlon": {
@@ -2529,7 +2832,12 @@ module.exports = {
         "country": "Germany",
         "pop": "fra1",
         "street": "Hanauer Landstr. 302",
-        "exchanges": ["DE-CIX Frankfurt", "KleyRex", "LocIX Frankfurt", "STACIX"]
+        "exchanges": [
+            "DE-CIX Frankfurt",
+            "KleyRex",
+            "LocIX Frankfurt",
+            "STACIX"
+        ]
     },
     "phx1": {
         "latlon": {
@@ -2541,7 +2849,9 @@ module.exports = {
         "country": "United States",
         "pop": "phx1",
         "street": "120 East Van Buren St",
-        "exchanges": ["Digital Realty Phoenix Internet Exchange."]
+        "exchanges": [
+            "Digital Realty Phoenix Internet Exchange."
+        ]
     },
     "lon10": {
         "latlon": {
@@ -2565,7 +2875,9 @@ module.exports = {
         "country": "South Africa",
         "pop": "cpt1",
         "street": "240 Main Road,  Rondebosch",
-        "exchanges": ["NAPAfrica Cape Town"]
+        "exchanges": [
+            "NAPAfrica Cape Town"
+        ]
     },
     "dub4": {
         "latlon": {
@@ -2613,7 +2925,10 @@ module.exports = {
         "country": "Ireland",
         "pop": "dub1",
         "street": "U7 Kilcarbery Park, New Nangor Road",
-        "exchanges": ["INEX LAN1", "INEX LAN2"]
+        "exchanges": [
+            "INEX LAN1",
+            "INEX LAN2"
+        ]
     },
     "dal5": {
         "latlon": {
@@ -2649,7 +2964,9 @@ module.exports = {
         "country": "United States",
         "pop": "dal7",
         "street": "2323 Bryan St.",
-        "exchanges": [" Digital Realty Dallas IX"]
+        "exchanges": [
+            " Digital Realty Dallas IX"
+        ]
     },
     "dal6": {
         "latlon": {
@@ -2673,7 +2990,11 @@ module.exports = {
         "country": "United States",
         "pop": "dal1",
         "street": "1950 North Stemmons Freeway",
-        "exchanges": ["Equinix Dallas", "CyrusOne", "MegaIX Dallas"]
+        "exchanges": [
+            "Equinix Dallas",
+            "CyrusOne",
+            "MegaIX Dallas"
+        ]
     },
     "dvn1": {
         "latlon": {
@@ -2685,7 +3006,9 @@ module.exports = {
         "country": "United States",
         "pop": "dvn1",
         "street": "2814 N Clark St",
-        "exchanges": ["QCIX"]
+        "exchanges": [
+            "QCIX"
+        ]
     },
     "dal3": {
         "latlon": {
@@ -2697,7 +3020,9 @@ module.exports = {
         "country": "United States",
         "pop": "dal3",
         "street": "1950 N. Stemmons Freeway",
-        "exchanges": ["DE-CIX Dallas"]
+        "exchanges": [
+            "DE-CIX Dallas"
+        ]
     },
     "dal2": {
         "latlon": {
@@ -2733,7 +3058,12 @@ module.exports = {
         "country": "Italy",
         "pop": "mil2",
         "street": "Via Caldera 21 Bulding D2",
-        "exchanges": ["MIX", "MINAP Milan", "TOP-IX", "Equinix Milan"]
+        "exchanges": [
+            "MIX",
+            "MINAP Milan",
+            "TOP-IX",
+            "Equinix Milan"
+        ]
     },
     "pdx2": {
         "latlon": {
@@ -2769,7 +3099,10 @@ module.exports = {
         "country": "United States",
         "pop": "nyc6",
         "street": "85 10th Avenue",
-        "exchanges": ["DE-CIX NY", "NYIIX"]
+        "exchanges": [
+            "DE-CIX NY",
+            "NYIIX"
+        ]
     },
     "dus1": {
         "latlon": {
@@ -2781,7 +3114,10 @@ module.exports = {
         "country": "Germany",
         "pop": "dus1",
         "street": "In der Steele 29",
-        "exchanges": ["ECIX Dusseldorf", "DE-CIX Dusseldorf"]
+        "exchanges": [
+            "ECIX Dusseldorf",
+            "DE-CIX Dusseldorf"
+        ]
     },
     "ewr4": {
         "latlon": {
@@ -2805,7 +3141,9 @@ module.exports = {
         "country": "Germany",
         "pop": "fra8",
         "street": "Kleyerstrasse 75-87",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "ewr1": {
         "latlon": {
@@ -2829,7 +3167,9 @@ module.exports = {
         "country": "United States",
         "pop": "ind1",
         "street": "733 W. Henry St",
-        "exchanges": ["MidWest-IX Indy"]
+        "exchanges": [
+            "MidWest-IX Indy"
+        ]
     },
     "snt2": {
         "latlon": {
@@ -2889,7 +3229,10 @@ module.exports = {
         "country": "United States",
         "pop": "den1",
         "street": "910 15th St.",
-        "exchanges": ["Any2 Denver", "IX-Denver"]
+        "exchanges": [
+            "Any2 Denver",
+            "IX-Denver"
+        ]
     },
     "mil1": {
         "latlon": {
@@ -2949,7 +3292,9 @@ module.exports = {
         "country": "Kenya",
         "pop": "nbo1",
         "street": "Sameer Business Park, Mombasa Road",
-        "exchanges": ["KIXP"]
+        "exchanges": [
+            "KIXP"
+        ]
     },
     "nyc4": {
         "latlon": {
@@ -2961,7 +3306,9 @@ module.exports = {
         "country": "United States",
         "pop": "nyc4",
         "street": "111 8th Ave",
-        "exchanges": ["Equinix New York"]
+        "exchanges": [
+            "Equinix New York"
+        ]
     },
     "nyc5": {
         "latlon": {
@@ -2973,7 +3320,9 @@ module.exports = {
         "country": "United States",
         "pop": "nyc5",
         "street": "60 Hudson St.",
-        "exchanges": ["Digital Realy New York IX (Telx-TIE)"]
+        "exchanges": [
+            "Digital Realy New York IX (Telx-TIE)"
+        ]
     },
     "blp1": {
         "latlon": {
@@ -3021,7 +3370,9 @@ module.exports = {
         "country": "United States",
         "pop": "phx3",
         "street": "3011 S. 52nd St",
-        "exchanges": ["48 IX"]
+        "exchanges": [
+            "48 IX"
+        ]
     },
     "sfo1": {
         "latlon": {
@@ -3033,7 +3384,9 @@ module.exports = {
         "country": "United States",
         "pop": "sfo1",
         "street": "200 Paul",
-        "exchanges": ["SFMIX"]
+        "exchanges": [
+            "SFMIX"
+        ]
     },
     "ham2": {
         "latlon": {
@@ -3069,7 +3422,11 @@ module.exports = {
         "country": "Germany",
         "pop": "ham1",
         "street": "Wendenstrasse 379",
-        "exchanges": ["BREM-IX", "DE-CIX Hamburg", "ECIX Hamburg"]
+        "exchanges": [
+            "BREM-IX",
+            "DE-CIX Hamburg",
+            "ECIX Hamburg"
+        ]
     },
     "chi2": {
         "latlon": {
@@ -3081,7 +3438,10 @@ module.exports = {
         "country": "United States",
         "pop": "chi2",
         "street": "350 East Cermak Road, Suite 002",
-        "exchanges": ["ChIX", "DRT Chicago"]
+        "exchanges": [
+            "ChIX",
+            "DRT Chicago"
+        ]
     },
     "chi3": {
         "latlon": {
@@ -3093,7 +3453,9 @@ module.exports = {
         "country": "United States",
         "pop": "chi3",
         "street": "427 S. LaSalle St.",
-        "exchanges": ["Any2 Chicago"]
+        "exchanges": [
+            "Any2 Chicago"
+        ]
     },
     "iad1": {
         "latlon": {
@@ -3129,7 +3491,9 @@ module.exports = {
         "country": "Switzerland",
         "pop": "gva1",
         "street": "Rue de la Conf\u00e9d\u00e9ration 6",
-        "exchanges": ["CIXP"]
+        "exchanges": [
+            "CIXP"
+        ]
     },
     "chi4": {
         "latlon": {
@@ -3165,7 +3529,13 @@ module.exports = {
         "country": "Poland",
         "pop": "waw1",
         "street": "Aleje Jerozolimskie 65/79",
-        "exchanges": ["Equinix Warsaw (PLIX)", "POZIX", "THINX", "TPIX Warsaw", "IX.LODZ.PL"]
+        "exchanges": [
+            "Equinix Warsaw (PLIX)",
+            "POZIX",
+            "THINX",
+            "TPIX Warsaw",
+            "IX.LODZ.PL"
+        ]
     },
     "man3": {
         "latlon": {
@@ -3189,7 +3559,9 @@ module.exports = {
         "country": "Spain",
         "pop": "bcn1",
         "street": "Calle Acero, 30-32",
-        "exchanges": ["CATNIX"]
+        "exchanges": [
+            "CATNIX"
+        ]
     },
     "sea3": {
         "latlon": {
@@ -3213,7 +3585,10 @@ module.exports = {
         "country": "South Africa",
         "pop": "dur1",
         "street": "Riverhorse Valley, Riverhorse Cl, Newlands East",
-        "exchanges": ["DINX", "NAPAfrica IX Durban"]
+        "exchanges": [
+            "DINX",
+            "NAPAfrica IX Durban"
+        ]
     },
     "pdx1": {
         "latlon": {
@@ -3225,7 +3600,9 @@ module.exports = {
         "country": "United States",
         "pop": "pdx1",
         "street": "921 SW Washington St",
-        "exchanges": ["NWAX"]
+        "exchanges": [
+            "NWAX"
+        ]
     },
     "sat1": {
         "latlon": {
@@ -3237,7 +3614,9 @@ module.exports = {
         "country": "United States",
         "pop": "sat1",
         "street": "100 Taylor St,",
-        "exchanges": ["SAT-IX"]
+        "exchanges": [
+            "SAT-IX"
+        ]
     },
     "buf1": {
         "latlon": {
@@ -3261,7 +3640,11 @@ module.exports = {
         "country": "New Zealand",
         "pop": "akl1",
         "street": "220 Queen Street",
-        "exchanges": ["AKL-IX", "APE", "MegaIX Auckland"]
+        "exchanges": [
+            "AKL-IX",
+            "APE",
+            "MegaIX Auckland"
+        ]
     },
     "akl2": {
         "latlon": {
@@ -3285,7 +3668,9 @@ module.exports = {
         "country": "Italy",
         "pop": "rom1",
         "street": "Via dei Tizii, 6b",
-        "exchanges": ["NaMeX"]
+        "exchanges": [
+            "NaMeX"
+        ]
     },
     "lit1": {
         "latlon": {
@@ -3297,7 +3682,9 @@ module.exports = {
         "country": "usa",
         "pop": "lit1",
         "street": "15707 Chenal Pkwy, Little Rock,",
-        "exchanges": [" "]
+        "exchanges": [
+            " "
+        ]
     },
     "yqm1": {
         "latlon": {
@@ -3321,7 +3708,9 @@ module.exports = {
         "country": "Turkey",
         "pop": "ist1",
         "street": "3 Cadde No4 Umraniye",
-        "exchanges": ["DE-CIX Istanbul"]
+        "exchanges": [
+            "DE-CIX Istanbul"
+        ]
     },
     "mia1": {
         "latlon": {
@@ -3333,7 +3722,10 @@ module.exports = {
         "country": "United States",
         "pop": "mia1",
         "street": "50 NE 9th",
-        "exchanges": ["FL-IX", "Equinix IX Miami"]
+        "exchanges": [
+            "FL-IX",
+            "Equinix IX Miami"
+        ]
     },
     "cle1": {
         "latlon": {
@@ -3345,7 +3737,9 @@ module.exports = {
         "country": "United States",
         "pop": "cle1",
         "street": "1525 Rockwell Ave",
-        "exchanges": ["Midwest-IX Cleveland"]
+        "exchanges": [
+            "Midwest-IX Cleveland"
+        ]
     },
     "mia2": {
         "latlon": {
@@ -3369,7 +3763,10 @@ module.exports = {
         "country": "Latvia",
         "pop": "rix1",
         "street": "Zakusalas krastmala 1",
-        "exchanges": ["SMILE-LV", "PITER-IX Riga"]
+        "exchanges": [
+            "SMILE-LV",
+            "PITER-IX Riga"
+        ]
     },
     "sel1": {
         "latlon": {
@@ -3381,7 +3778,9 @@ module.exports = {
         "country": "South Korea",
         "pop": "sel1",
         "street": "5F, Daelim Acrotel",
-        "exchanges": ["KINX"]
+        "exchanges": [
+            "KINX"
+        ]
     },
     "sel2": {
         "latlon": {
@@ -3393,7 +3792,9 @@ module.exports = {
         "country": "South Korea",
         "pop": "sel2",
         "street": "Digital Media City 24, World cup buk-ro 60-gil, Mapo-gu, Sangam-",
-        "exchanges": ["Equinix Seoul"]
+        "exchanges": [
+            "Equinix Seoul"
+        ]
     },
     "beg1": {
         "latlon": {
@@ -3405,6 +3806,8 @@ module.exports = {
         "country": "Serbia",
         "pop": "beg1",
         "street": "Omladinskih brigada 92",
-        "exchanges": ["SOX Serbia"]
+        "exchanges": [
+            "SOX Serbia"
+        ]
     }
 }
