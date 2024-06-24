@@ -1,0 +1,61 @@
+name: Daily File Download and Comparison
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This cron schedule runs the workflow daily at midnight UTC
+
+jobs:
+  download-and-compare:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download file
+        run: curl -o newfile.txt https://minerstat.com/mining-pool-whitelist.txt
+
+      - name: Compare files
+        id: compare
+        run: |
+          # Check if latest.txt exists
+          if [ -f latest.txt ]; then
+            # Compare content
+            if diff -q newfile.txt latest.txt > /dev/null && cmp -s newfile.txt latest.txt; then
+              echo "files_are_identical=true" >> $GITHUB_OUTPUT
+            else
+              echo "files_are_identical=false" >> $GITHUB_OUTPUT
+              # Get the current date
+              DATE=$(date +%Y_%m_%d)
+              mv newfile.txt RPL_${DATE}.txt
+              cp RPL_${DATE}.txt latest.txt
+              echo "new_filename=RPL_${DATE}.txt" >> $GITHUB_OUTPUT
+              echo "branch_name=${DATE}" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "latest.txt does not exist. Using newfile.txt"
+            DATE=$(date +%Y_%m_%d)
+            mv newfile.txt RPL_${DATE}.txt
+            cp RPL_${DATE}.txt latest.txt
+            echo "new_filename=RPL_${DATE}.txt" >> $GITHUB_OUTPUT
+            echo "branch_name=${DATE}" >> $GITHUB_OUTPUT
+            echo "files_are_identical=false" >> $GITHUB_OUTPUT
+
+      - name: Create branch and commit changes
+        if: steps.compare.outputs.files_are_identical == 'false'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b ${{ steps.compare.outputs.branch_name }}
+          git add latest.txt ${{ steps.compare.outputs.new_filename }}
+          git commit -m 'Update latest.txt and add ${{ steps.compare.outputs.new_filename }}'
+          git push --set-upstream origin ${{ steps.compare.outputs.branch_name }}
+
+      - name: Create Pull Request
+        if: steps.compare.outputs.files_are_identical == 'false'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ steps.compare.outputs.branch_name }}
+          title: 'Update latest.txt and add ${{ steps.compare.outputs.new_filename }}'
+          body: 'This PR updates the latest.txt file and adds the new file ${{ steps.compare.outputs.new_filename }}.'
